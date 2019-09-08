@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest -w",
     "test:ci": "jest",
-    "release": "npm run test:ci && tsc"
+    "release": "jest && tsc"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
